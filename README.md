@@ -1,5 +1,5 @@
 # using-GA-with-group-selection-to-solve-Orienteering-Problem
-using GA with group selection to solve Orienteering Problem
+using GA(genetic algorithm) with group selection to solve Orienteering Problem
 
 the detail of the algorithm can be read in the paper " A Genetic Algorithm with Grouping Selection and Searching Operators for the Orienteering Problem" from Asian Conference on Intelligent Information and Database Systems. 
 
