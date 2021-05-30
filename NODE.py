@@ -13,9 +13,10 @@ node_list=[[1,10.50,14.40,0],[2,18.00,15.90,10],
                       [27,8.70,17.70,10],[28,8.90,13.60,10],[29,5.60,11.10,10],
                       [30,4.90,18.90,10],[31,7.30,18.80,10],[32,11.20,14.10,0]]
 #the first column represents the number of each node, the second column represent X coordinate of each node, the third column represent Y coordinate of each node, the fourth column represent the point of each node.
+
 node_info = np.asarray(node_list,dtype=object)
 
 node = pd.DataFrame(data=node_info,columns=['Node','X','Y','Point'])
 
-a=np.array(node.iloc[1:-1])
+#a=np.array(node.iloc[1:-1])
 #print(a[0,1])
